@@ -61,7 +61,8 @@ public class InitService {
         return conceptSchema;
     }
 
-    public void setMappings(List<Mapping> mappings, int size) {
+    // Removed the unused parameter 'size' from the method signature
+    public void setMappings(List<Mapping> mappings) {
         this.mappings = mappings;
     }
 }
